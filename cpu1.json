@@ -1,0 +1,100 @@
+{
+  "channelid": 35,
+  "events": [
+    {
+      "data": {
+        "handler": "Devices.Device.6C:99:61:EC:1A:80",
+        "object": {
+          "reason": "cpu",
+          "attributes": {
+            "6C:99:61:EC:1A:80": {
+              "cpu": {
+                "Timestamp": "2022-11-21T16:20:28Z",
+                "User": 8,
+                "Nice": 0,
+                "System": 3,
+                "Idle": 90,
+                "IOwait": 0,
+                "Irq": 0,
+                "Softirq": 0,
+                "Steal": 0,
+                "Guest": 0,
+                "Guest_nice": 0,
+                "Total": 10
+              },
+              "cpu0": {
+                "Timestamp": "2022-11-21T16:20:28Z",
+                "User": 7,
+                "Nice": 0,
+                "System": 3,
+                "Idle": 90,
+                "IOwait": 0,
+                "Irq": 0,
+                "Softirq": 0,
+                "Steal": 0,
+                "Guest": 0,
+                "Guest_nice": 0,
+                "Total": 10
+              },
+              "cpu1": {
+                "Timestamp": "2022-11-21T16:20:28Z",
+                "User": 3,
+                "Nice": 0,
+                "System": 1,
+                "Idle": 95,
+                "IOwait": 0,
+                "Irq": 0,
+                "Softirq": 0,
+                "Steal": 0,
+                "Guest": 0,
+                "Guest_nice": 0,
+                "Total": 5
+              },
+              "cpu2": {
+                "Timestamp": "2022-11-21T16:20:28Z",
+                "User": 12,
+                "Nice": 0,
+                "System": 4,
+                "Idle": 84,
+                "IOwait": 0,
+                "Irq": 0,
+                "Softirq": 0,
+                "Steal": 0,
+                "Guest": 0,
+                "Guest_nice": 0,
+                "Total": 16
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "handler": "Devices.Device.6C:99:61:EC:1A:80",
+        "object": {
+          "reason": "sysinfo",
+          "attributes": {
+            "6C:99:61:EC:1A:80": {
+              "Timestamp": "2022-11-21T16:20:28Z",
+              "uptime": 25085,
+              "loadaverage_1min": 22240,
+              "loadaverage_5min": 18368,
+              "loadaverage_15min": 14048,
+              "totalram": 1028836000,
+              "freeram": 539272000,
+              "sharedram": 2136000,
+              "bufferram": 27812000,
+              "cachedram": 74660000,
+              "totalswap": 0,
+              "freeswap": 0,
+              "procs": 230,
+              "totalhigh": 270272000,
+              "mem_unit": 1
+            }
+          }
+        }
+      }
+    }
+  ]
+}
